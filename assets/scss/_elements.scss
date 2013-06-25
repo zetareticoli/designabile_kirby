@@ -1,0 +1,124 @@
+// ==========================================================
+
+// 320 and Up by Andy Clarke
+// Version: 3.0
+// URL: http://stuffandnonsense.co.uk/projects/320andup/
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+
+// ==========================================================
+
+/* Elements =================================================== */
+
+.divider:before {
+	content: '';
+	display: block;
+	margin: 4em auto;
+	width: 100px;
+	border-top: 5px solid $lightergrey;
+}
+
+// FIGURES & IMAGES =============================================================================
+
+hr {
+clear: both;
+display : block;
+margin : 1em 0;
+padding : 0;
+height : 1px;
+border : 0;
+border-top : 1px solid $bordercolor;
+border-bottom : 1px solid $white; }
+
+// img
+
+img {
+max-width : 100%;
+border-width : 0;
+vertical-align : middle;
+-ms-interpolation-mode : bicubic; }
+
+svg:not(:root) {
+overflow : hidden; }
+
+// figure
+
+figure {
+margin-bottom : $baselineheight;
+
+img {
+margin-bottom : $baselineheight / 4; }
+
+figcaption {
+display : block;
+font-weight : normal;
+@include font-size(14);
+color : $grey; }
+}
+
+// list-bordered
+
+.list-bordered {
+list-style-type : none;
+margin : 0 0 $baselineheight 0;
+padding : 0;
+
+li {
+margin-bottom : $baselineheight / 4;
+padding-bottom : $baselineheight / 4;
+border-bottom : 1px dashed $bordercolor; }
+
+li:last-child {
+margin-bottom : 0;
+padding-bottom : 0;
+border-bottom-width : 0; }
+}
+
+// icons
+
+.icon-big {
+	@include font-size(42);
+	line-height: 1.5em;
+}
+
+a > .ss-icon {
+	color: $grey;
+	opacity: .5;
+	@include transition(opacity .2s);
+}
+
+a:hover .ss-icon {
+	opacity: 1;
+}
+
+footer a > .ss-icon {
+	color: $white;
+	font-size: 1.5em;
+	opacity: .15;
+} 
+
+.lead-email .icon-big {
+	color: $primarycolor;
+	line-height: .6em;
+}
+
+a:hover {
+  .twitter {
+    color: #00A0D1;
+  }
+  .dribbble {
+    color: #ea4c89;
+  }
+  .linkedin {
+    color: #007bb6;
+  }
+  .instagram {
+    color: #517fa4;
+  }
+}
+
+
+// BUTTONS =============================================================================
+
+.btn-large {
+	padding: 6px 12px;
+}

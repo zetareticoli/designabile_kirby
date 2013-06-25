@@ -1,0 +1,8 @@
+Title: Redis - logo
+----
+Text: Redis is a popular, open source, advanced key-value store. You can use Redis from most programming languages out there, like C, C++, Java, Node.js, Obiective-C and more.
+In 2010 guys at Redis launched a contest asking design community to redesign their logo. I contributed designing a simple and unique shape: it's a mix of the "R" of Redis and a flat database symbol. Unfortunately I didn't win. But it received a lot of positive feedback. That made me happy. Fun contest.
+----
+Related:
+- work/today
+- work/citynews

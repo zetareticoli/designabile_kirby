@@ -1,0 +1,8 @@
+Title: RoboDomain - Logo
+----
+Text: A cute robot was the mascotte and logo of RoboDomain app. 
+After sketching some rough ideas on paper I converted it to digital and added some nice colours. I choose Bender Bold as logotype: thanks to the unique form of signs, it works well for logos or headings.
+----
+Related:
+- work/redis
+- work/robowhois

@@ -1,0 +1,301 @@
+// ==========================================================
+
+// 320 and Up by Andy Clarke
+// Version: 3.0
+// URL: http://stuffandnonsense.co.uk/projects/320andup/
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+
+// ==========================================================
+
+/* Page =================================================== */
+
+// 1. ROOT 					==============================
+
+@-webkit-viewport { 
+width : device-width; }
+
+@-moz-viewport { 
+width : device-width; }
+
+@-ms-viewport { 
+width : device-width; }
+
+@-o-viewport { 
+width : device-width; }
+
+@viewport { 
+width : device-width; }
+
+html {
+	background : $bodycolor;
+	font-size : 62.5%;
+	-webkit-overflow-scrolling : touch;
+	-webkit-tap-highlight-color : lighten($basecolor, 75%);
+	-webkit-text-size-adjust : 100%;
+	-ms-text-size-adjust : 100%; }
+
+body {
+	margin : 0;
+	padding : 0;
+	width : 100%;
+	background-color : transparent;
+	font-family : $basefont;
+	@include font-size();
+	line-height : $baselineheight;
+	color : $textcolor;
+	-webkit-font-smoothing: antialiased; }
+
+
+.centered {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.pull-left{
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+/* For modern browsers */
+.cf:before,
+.cf:after {
+    content:"";
+    display:block;
+}
+ 
+.cf:after {
+    clear:both;
+}
+ 
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    zoom:1;
+}
+
+// 2. TYPOGRAPHY 			==============================
+// 3. COLOUR 				==============================
+// 4. TEXTURE 				==============================
+
+
+
+// 5. ELEMENTS 				==============================
+
+// Brand =============================================================================
+.brand {
+     display: block;
+     @include font-size(14);
+     margin: 0;
+     padding: 2em 0;
+     text-align: center;
+     > a {
+     	border-bottom: 0;
+        color: $grey;
+        font-family: $headingfont;
+        @include transition(color .2s ease);
+        &:visited {
+        	color: $grey;
+        }
+        &:hover {
+            color: $darkgrey;
+            text-decoration: none;
+            @include transition(color .2s ease);
+        }
+    }
+}
+
+
+
+// 6. LAYOUT 				==============================
+
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+// Header =============================================================================
+.header-container {
+	background: $white;
+    border-top: 6px solid $primarycolor;
+	position: relative;
+	z-index: 10;
+	.wrapper {
+		padding: 0;
+	}
+}
+
+// Main =============================================================================
+.main {
+    text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+// Footer =============================================================================
+footer {
+    background: $footercolor;
+    padding: 3em 0;
+    text-align: center;
+    a {
+        color: $white;
+        &:hover {
+        	color: $white;
+        	text-decoration: underline;
+        }
+    }
+    p {
+        color: $grey;
+        line-height: $baselineheight;
+        margin-bottom: .375em;
+    }
+    .footer-primary {
+    	margin-bottom: 2em;
+    }
+    .footer-primary p,
+    .footer-contacts {
+        font-size: 1em;
+        font-weight: 300;
+    }
+    .footer-contacts {
+        color: $white;
+        list-style: none;
+        li + li {
+        	margin-top: .175em;
+        }
+    }
+    .footer-contacts {
+        margin-bottom: 2em;
+    }
+    .footer-social {
+    	margin: .775em auto 0;
+    	width: 60%;
+    	li {
+    		float: left;
+    		list-style: none;
+    		margin-right: 1.5em;
+    	}
+    	a .ss-icon {
+    		font-size: 1.5em;
+        }
+    	a:hover {
+    		text-decoration: none;
+    	}
+    }
+    .footer-copyright {
+    	@include font-size(12);
+    	opacity: .5;
+    }
+}
+
+// General Layout Styles =============================================================================
+.l-inverse {
+	background: $lightergrey;
+    padding: 2em;
+}
+
+.l-inline {
+    li {
+        display: inline-block;
+        margin: 0 1em;
+        &:first-child {
+            margin-left: 0;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+// 7. VENDOR-SPECIFIC 		==============================
+// 8. MODERNIZR 			==============================
+
+
+
+// 9. TEMPLATE SPECIFICS 	==============================
+
+.preview {
+    padding-right: 0;
+    padding-left: 0;
+    position: relative;
+    h2 {
+        font-family: $textfont;
+        @include font-size(16);
+        margin: 0;
+    }
+    .link {
+      cursor: pointer;
+    }
+
+    .over {
+      cursor: pointer;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      text-decoration: none;
+      
+      strong {
+        display: block;
+        margin: 50px 0 0 30px;
+        font-size: 1.2em;
+        color: #fff;
+      }
+      
+      p {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 0;
+        padding: 5px 10px;
+        background: #000;
+        color: #fff;
+      }
+    }
+}
+
+.preview:hover {
+    .link {
+        opacity: 0;
+    }
+    .over {
+        opacity: 1;
+        background: rgba(0,0,0,.75);
+    }
+}
+
+.related {
+    margin: 4em 0 2em;
+    li {
+        float: left;
+        list-style: none;
+        margin-right: .3em;
+        width: 48.7%;
+    }
+}
+
+.touchpoint {
+	clear: both;
+	padding: 3em 0;
+	text-align: center;
+	.btn {
+		margin-bottom: .575em;
+        width: 80%;
+	}
+	.paragraph-divider {
+        border-top: 1px solid $lightgrey;
+		margin: .575em auto 1em;
+        position: relative;
+		width: 20%;
+		span {
+			background-color: $lightergrey;
+            color: $grey;
+			left: 45%;
+			padding: 0 5px;
+		}
+	}
+}

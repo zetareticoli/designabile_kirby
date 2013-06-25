@@ -1,0 +1,20 @@
+Title: about
+----
+Subtitle: a small creative studio & a passionate designer
+----
+Intro: Designabile is the small, creative design studio of designer and author Francesco Improta. Founded in 2010, it's located in the centre of Rome.
+
+
+
+I work with clients from all around the world, directly collaborating with agencies or in solo position. And I'm freaking good with it.
+----
+Bio: 
+My name is Francesco Improta, italian designer living in sunny Rome, Italy.
+
+With more 7 years of experience in the web design field, I’m specialised in Interaction Design and User Interface Design. But I can code my own designs too. 
+
+After 5 and more years working as web designer for agencies I started a new journey as freelancer running my own design studio. Previously I was the co-founder and lead designer of the domains management service [RoboDomain](http://robodomain.com/ "Robodomain website").
+
+I’m particularly interested in touch-screen and mobile interfaces, user experience and typography.
+
+Occasionally I write and talk about design and web. I enjoy sharing my approach to web design by writing, attending and speaking at conferences and events. I'm the co-author of [CSS3 Solution](http://www.apress.com/9781430243359 "CSS3 Solutions the book") and writed several articles for [HTML.it](http://html.it "HTML.it website") and [UXMagazine](http://http://www.uxmagazine.it/author/francesco-improta/ "UXMagazine Francesco Improta's articles").

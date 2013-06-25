@@ -1,0 +1,7 @@
+Title: RoboDomain
+----
+Text: Along with the webapp I crafted a simple and fun website to promote Robodomain on the web. I also designed some nice icons and illustrations. The blog runs on Tumblr so I created a dedicated theme.
+----
+Related:
+- work/citynews
+- work/athena

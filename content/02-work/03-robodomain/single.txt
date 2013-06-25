@@ -1,0 +1,9 @@
+Title: RoboDomain
+----
+Text: RoboDomain is a webapp for domains tracking and management. It helps you to organize the domains you own or manage. You can track the details of the domains, all in one place, including renewal dates and WHOIS information. The web interface is designed to simplify all the domain managing activities.
+
+As Co-Founder and Lead Designer I did the UX and UI.
+----
+Related:
+- work/robodomain-logo
+- work/robodomain-site

@@ -1,0 +1,259 @@
+// ==========================================================
+
+// 992
+
+// ==========================================================
+
+
+// 1. ROOT 					==============================
+// 2. TYPOGRAPHY 			==============================
+
+h1.page-title {
+    text-align: left;
+}
+
+.lead-email {
+    
+    @include font-size(48);
+}
+// 3. COLOUR 				==============================
+// 4. TEXTURE 				==============================
+// 5. ELEMENTS 				==============================
+
+
+
+// 6. LAYOUT 				==============================
+
+.wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+// Header =============================================================================
+
+.brand {
+    float: left;
+    padding: 3% 0;
+}
+
+.header-container {
+	padding-top: 3%;
+    padding-bottom: 3%;
+    .wrapper {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+.teaser {
+    background-position: 0 0;
+    padding-bottom: 10%;
+	h1 {
+        letter-spacing: 0;
+        margin-top: 10%;
+	}
+    nav {
+        padding: 0;
+    }
+    .btn {
+        display: block;
+        width: 30%;
+        margin: 0 auto;
+    }
+}
+
+// Footer =============================================================================
+footer {
+    padding: 4.5em 0;
+    text-align: left;
+    .footer-primary {
+        float: left;
+        margin-bottom: 0;
+    }
+    .footer-contacts,
+    .footer-secondary {
+        margin-top: 0;
+    }
+    .footer-contacts {
+        float: right;
+        margin: 0;
+    }
+    .footer-secondary {
+        clear: both;
+    }
+    .footer-copyright {
+        float: left;
+    }
+    .footer-social {
+        float: right;
+        padding: 0;
+        width: auto;
+    }
+}
+
+// Navigation =============================================================================
+nav {
+    background: none;
+    float: right;
+    width: 50%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    border-bottom: 0;
+    @include font-size(22);
+
+}
+
+nav a,
+nav a:visited {
+    float: left;
+    width: 18%;
+    margin: 0 1.7%;
+    padding: 12px 2%;
+    margin-bottom: 0;
+    text-align: center;
+    text-decoration: none;
+    @include transition(color .2s);
+}
+
+nav ul,
+nav li {
+    float: none;
+    width: auto;
+}
+
+nav li.active a {
+    font-weight: 500;
+}
+
+nav li:first-child a {
+    margin-left: 0;
+}
+
+nav li:last-child a {
+    margin-right: 0;
+}
+
+nav {
+    margin-bottom: 0;
+    li a {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+/*! responsive-nav.js v1.0 by @viljamis */
+
+.js #nav {
+  position: relative;
+  max-height: none;
+}
+#nav-toggle {
+  display: none;
+}
+
+
+// 7. VENDOR-SPECIFIC 		==============================
+// 8. MODERNIZR 			==============================
+// 9. TEMPLATE SPECIFICS 	==============================
+
+//  Intro =============================================================================
+.intro {
+    padding: 2em 0;
+}
+
+.intro p {
+    width: 72%;
+}
+
+//  Featured =============================================================================
+.featured {
+  padding: 3em 0;
+}
+
+// Touchpoint ============================================================================
+.touchpoint .btn {
+    width: 30%;
+}
+.touchpoint .paragraph-divider {
+    width: 25%;
+}
+
+// About =============================================================================
+
+.section-about {
+    h2,
+    .profile-photo {
+        text-align: left;
+    }
+    h2 {
+        margin-top: 2em;
+        margin-left: 34%;
+    }
+    .profile-photo {
+        margin-top: -3em;
+    }
+}
+
+//  Work =============================================================================
+
+
+
+// Single Work =============================================================================
+.p-single {
+    .main {
+        padding: 0;
+    }
+    .page-title {
+        padding-top: 1.2em;
+    }
+    .lead {
+        padding-bottom: 2.2em;
+    }
+}
+
+// ePMA
+.work-intro.epma {
+    background: rgb(49,99,134);
+    .page-title,
+    .lead {
+        color: $white;
+    }
+}
+
+.related {
+    margin: 5em 0;
+}
+
+// What =============================================================================
+.p-what .lead {
+    text-align: left;
+}
+
+.grid-unit {
+    width: 33%;
+    &:nth-of-type(3n+3) {
+        border-right: 0;
+    }
+    &:nth-of-type(n+4) {
+        border-bottom: 0;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.info-default {
+    padding: 30% 24%;
+}
+
+.info-over {
+    padding: 25% 15% 35%;
+}

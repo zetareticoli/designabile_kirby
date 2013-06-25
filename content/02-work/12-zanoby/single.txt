@@ -1,0 +1,7 @@
+Title: zanoby
+----
+Text: Zanoby is a particular ecommerce where people can buy unique products from local makers. They promote excellence in craft, social and enviromental sustainability. I worked on the frontend (HTML and CSS).
+----
+Related:
+- work/citynews
+- work/doralab

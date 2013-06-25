@@ -1,0 +1,7 @@
+Title: Altura Educational 
+----
+Text: Altura Labs asked me to craft a dedicated website for the launch of their master on Web Marketing and Social Media Management. The website shows the information about the master organization, teachers, program, job opportunities and more. We used Wordpress as CMS.
+----
+Related:
+- work/doralab
+- work/zanoby

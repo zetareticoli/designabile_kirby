@@ -1,0 +1,7 @@
+Title: Robowhois 
+----
+Text: RoboWhois is a cloud-based web service that provides a RESTful API to access WHOIS records and domain related information. They asked me to design a simple icon for the logo.
+----
+Related:
+- work/robodomain
+- work/doralab

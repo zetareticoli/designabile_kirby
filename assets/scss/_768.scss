@@ -1,0 +1,277 @@
+// ==========================================================
+
+// 768
+
+// ==========================================================
+
+
+// 1. ROOT 					==============================
+
+
+
+// 2. TYPOGRAPHY 			==============================
+
+// Heading ====================================================
+h1,
+.h1 {
+    @include font-size(32); 
+}
+
+h1.page-title {
+    @include font-size(50); 
+}
+
+h2,
+.h2 {
+    @include font-size(24);
+}
+
+h3,
+.h3 {
+    @include font-size(18);
+}
+
+h4,
+.h4 {
+    @include font-size(16);
+}
+
+h5,
+.h5 {
+    @include font-size(14);
+}
+
+h6,
+.h6 {
+    @include font-size(12);
+}
+
+// Content ====================================================
+p,
+ol,
+ul,
+dl,
+small,
+address {
+    @include font-size(20); }
+
+small {
+    @include font-size(16); }
+
+p.lead {
+    @include font-size(26);
+}
+
+// special
+
+.paragraph-divider {
+    span {
+        @include font-size(12);
+        text-transform: uppercase;
+        position: absolute;
+        top: -13px;
+    }
+}
+
+
+// 3. COLOUR 				==============================
+// 4. TEXTURE 				==============================
+
+
+
+// 5. ELEMENTS 				==============================
+
+
+
+// 6. LAYOUT 				==============================
+
+
+.l-inverse {
+    padding: 3em 0 4em;
+}
+
+// Grid =============================================================================
+[class*="span"] {
+    box-sizing: border-box;
+    float: left;
+    min-height: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    &.pull-right {
+        float: right;
+        padding-left: 0;
+    }
+}
+
+[class*="span"]:nth-of-type(1) {
+    padding-left: 0;
+}
+
+[class*="span"]:last-child {
+    padding-right: 0;
+}
+
+.span-1 {
+    width: 15%;
+}
+
+.span-2 {
+    width: 32%;
+}
+
+.span-3 {
+    width: 49%;
+}
+
+.span-4 {
+    width: 66%;
+    > .span {
+        width: 50%;
+        padding-left: 0;
+    }
+}
+
+.fullspan {
+  width: 100%;
+  padding: 0;
+  > .span {
+      width: 50%;
+  }
+}
+
+// Brand =============================================================================
+.brand {
+    @include font-size(22);
+    padding: 6% 0;
+}
+
+// Header =============================================================================
+.teaser {
+    padding-bottom: 2em;
+    h1 {
+        clear: both;
+        display: inline-block;
+        @include font-size(48);
+        margin-top: 35%;
+    }
+}
+
+// Main ============================================================================
+.main {
+    text-align: left;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+.main article {
+    float: left;
+    width: 57%;
+}
+
+.main aside {
+    float: right;
+    width: 28%;
+}
+
+.intro {
+    padding: 2em 0;
+    p {
+        @include font-size(18);
+        padding: 0 12%;
+    }
+}
+.intro + .intro {
+    margin: 0;
+}
+
+// Footer =============================================================================
+footer {
+    .footer-primary p,
+    .footer-contacts {
+        @include font-size(22);
+    }
+    .footer-primary {
+        margin-bottom: 3em;
+    }
+    .footer-social {
+        width: 35%;
+    }
+}
+
+
+// 7. VENDOR-SPECIFIC 		==============================
+// 8. MODERNIZR 			==============================
+
+
+
+// 9. TEMPLATE SPECIFICS 	==============================
+
+// Featured ============================================================================
+.featured .preview {
+    margin: 0 .2em 3em 0;
+    padding: 0;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.featured figure {
+    margin-bottom: 0;
+}
+
+// Touchpoint ============================================================================
+.touchpoint .btn {
+    width: 40%;
+}
+.touchpoint .paragraph-divider {
+    width: 45%;
+}
+
+// About =============================================================================
+@media only screen and (max-width: 768px) {
+    .section-about {
+        .span-2,
+        .span-4 {
+            width: 100%;
+        }
+        .about-photo {
+            text-align: center;
+        }
+    }
+}
+
+// Work =============================================================================
+.p-work .preview {
+    margin: 0 .375em .375em 0;
+    padding-right: 0;
+    padding-left: 0;
+    position: relative;
+    width: 48%;
+}
+
+// Single Work =============================================================================
+.p-single {
+    .header-container {
+        border-bottom: 0;
+    }
+    .main {
+        padding: 0;
+    }
+}
+
+.screens {
+    padding-left: 0;
+}
+
+.details {
+    float: right;
+}
+
+// What =============================================================================
+.p-what .lead {
+    text-align: center;
+}
+
+.approach {
+    margin-bottom: 4em;
+}

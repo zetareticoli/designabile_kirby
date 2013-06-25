@@ -1,0 +1,10 @@
+Title: citynews
+----
+Text: Citynews is a publishing company specialized in local online news. They are a unique example of citizen journalism in Italy, having more than 315.000 active users who produce 700+ news per day. 
+
+I worked with Citynews to completely redesign their existing site and brand identity.
+----
+Related:
+- work/today
+- work/alturalabs
+

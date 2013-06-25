@@ -1,0 +1,7 @@
+Title: Searchmarketing Arena - Logo
+----
+Text: Searchmarketing Arena was a Q&A site for web marketing and SEO. It was built with Stack Exchange platform, a network of free, community-driven Q&A site. I worked for them designing a clean and memorable logo.
+----
+Related:
+- work/today
+- work/robowhois

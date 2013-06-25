@@ -1,0 +1,7 @@
+Title: Athena
+----
+Text: Athena Tracking is a touchscreen application dedicated to anatomic pathology management services. It tracks and identifies all diagnostic process elements, from the patient to the individual slide.
+----
+Related:
+- work/epma
+- work/zanoby

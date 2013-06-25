@@ -1,0 +1,335 @@
+// ==========================================================
+
+// PAGE
+
+// ==========================================================
+
+
+// Navigation =============================================================================
+nav {
+    background: lighten($black, 15%);
+    overflow: hidden;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    border-bottom: 0;
+}
+
+nav a,
+nav a:visited {
+    border-bottom: 1px solid $darkgrey;
+    color: $grey;
+    float: left;
+    font-family: $textfont;
+    @include font-size(14);
+    padding: 12px 2%;
+    text-align: center;
+    text-decoration: none;
+    @include transition(color .2s);
+    width: 100%;
+}
+
+nav a:hover {
+    color: $darkgrey;
+    text-decoration: none;
+}
+
+nav ul {
+    float: left;
+    width: 100%;
+}
+
+nav li {
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+
+nav li.active a {
+    color: $darkgrey;
+    font-weight: 500;
+}
+
+/*! responsive-nav.js v1.0 by @viljamis */
+.js #nav {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+}
+
+#nav.opened {
+  position: relative;
+  max-height: 9999px;
+}
+
+#nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#nav-toggle {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 64px;
+  height: 74px;
+  overflow: hidden;
+  opacity: .75;
+  position: absolute;
+  right: 0;
+  background: url("../images/icon-menu-black.png") 50% 50% no-repeat;
+  text-indent: -9999px;
+  &:hover,
+  &:active {
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #nav-toggle {
+    height: 120px;
+  }
+}
+
+// Touchpoint ============================================================================
+.touchpoint .paragraph-divider {
+    width: 85%;
+}
+
+// Homepage =============================================================================
+.p-home {
+    .brand a,
+    .brand a:visited {
+        color: $white;
+    }
+    .brand {
+        border-top: 0;
+    }
+    #nav-toggle {
+        background: url("../images/icon-menu-white.png") 50% 50% no-repeat;
+    }
+    nav a:hover {
+        color: $white;
+    }
+}
+
+.teaser {
+    background: url("../images/home-teaser.jpg") 20% 0 no-repeat;
+    background-size: cover;
+    border: 0;
+    color: #fff;
+    padding-bottom: 6em;
+    header {
+        text-align: center;
+    }
+    h1 {
+        display: block;
+        line-height: 1.1em;
+        letter-spacing: -1px;
+        @include font-size(30);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2em 0 0; 
+        width: 80%;
+    }
+    nav a,
+    nav a:visited {
+        color: $lightgrey;
+    }
+    nav a:hover {
+        color: $white;
+    }
+}
+
+.intro {
+    text-align: center;
+    h2 {
+        margin-bottom: 1em;
+    }
+    h2:after {
+        border-bottom: 2px solid $darkgrey;
+        content: '';
+        display: block;
+        margin: 1em auto 0;
+        width: 10%;
+    }
+    p {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+.intro + .intro {
+    margin-top: 2em;
+}
+
+.featured {
+    background: rgb(217,224,224);
+    padding: 2em 0;
+    text-align: center;
+    h3 {
+        margin-bottom: $baselineheight;
+        text-align: center;
+    }
+    .preview h2 {
+        text-align: left;
+    }
+}
+
+// About =============================================================================
+.section-studio {
+    .btn {
+        margin-bottom: 1em;
+        width: 85%;
+    }
+}
+.section-about {
+    @media only screen and (max-width: 600px) {
+        .profile-photo {
+            margin: 1em auto;
+            width: 60%;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .span-2,
+        .span-4 {
+            width: 100%;
+        }        
+        h2,
+        .profile-photo {
+            text-align: center;
+        }
+    }
+}
+
+// Work =============================================================================
+.p-work {
+    .thumb, img {
+        margin: 0;
+    }
+    .main {
+        padding-bottom: 0;
+    }
+}
+
+.preview {
+    margin-bottom: .3em;
+}
+
+.clients {
+    margin-bottom: 2em;
+    li {
+        margin: .5em 1.5em;
+        width: 25%;
+    }
+    img {
+        opacity: .55;
+    }
+}
+
+.stuff {
+    ul {
+        margin-bottom: 0;
+    }
+}
+
+// Single Work =============================================================================
+.p-single {
+    .page-title {
+        color: $grey;
+    }
+}
+.screen {
+    list-style: none;
+    margin-bottom: .5em;
+}
+
+
+// What =============================================================================
+.p-what {
+    .main {
+        padding-bottom: 0;
+    }
+    article p,
+    article ul {
+        color: $white;
+    }
+}
+
+.grid {
+    margin: 3em 0 0;
+}
+
+.grid-unit {
+    border-bottom: 1px solid $lightgrey;
+    @include box-sizing;
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    &:last-child {
+        border-bottom: 0;
+    }
+}
+
+.info-default {
+    display: block;
+    padding: 12%;
+}
+
+.info-over {
+    background: $primarycolor;
+    opacity: 0;
+    padding: 12%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    @include box-sizing(border-box);
+    @include transition(opacity .15s ease-in);
+    > * {
+        color: $white;
+    }
+    p {
+        font-family: $textfont;
+        &:after {
+            border-bottom: 2px solid $white;
+            content: '';
+            display: block;
+            margin: 1em auto 0;
+            width: 10%;
+        }
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+            @include font-size(16);
+        }
+    }
+}
+
+.grid-unit:hover {
+    .info-default {
+        opacity: 0;
+    }
+    .info-over {
+        opacity: 1;
+    }
+}
+
+.approach {
+    margin-bottom: 2.5em;
+}

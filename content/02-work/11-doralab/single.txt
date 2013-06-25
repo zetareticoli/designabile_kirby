@@ -1,0 +1,7 @@
+Title: Doralab
+----
+Text: Doralab is a UX Design agency located here in Rome, Italy. I worked for them as Senior Interaction Designer. One of the projects I get involved with was the company website.
+----
+Related:
+- work/alturalabs
+- work/robodomain-site

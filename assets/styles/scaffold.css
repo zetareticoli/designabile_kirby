@@ -1,0 +1,36 @@
+/* ==========================================================================
+   Grid
+   ========================================================================== */
+[class*="span"] {
+  box-sizing: border-box;
+  float: left;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0; }
+
+[class*="span"]:first-child {
+  padding-left: 0; }
+
+[class*="span"]:last-child {
+  padding-right: 0; }
+
+.span-1 {
+  width: 15%; }
+
+.span-2 {
+  width: 32%; }
+
+.span-3 {
+  width: 49%; }
+
+.fullspan {
+  width: 100%; }
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+  [class*="span"] {
+    float: none;
+    width: 100%; } }

@@ -1,0 +1,9 @@
+Title: e-PMA
+----
+Text: e-PMA is a software application designed exclusively for healthcare organizations, clinics and hospitals. Medical personnel use it for managing medicine prescription process and patient recovery. 
+
+The User Interface was only designed for mobile tablets because nurses and doctors use them in theri day-by-day activities.
+----
+Related:
+- work/athena
+- work/robodomain

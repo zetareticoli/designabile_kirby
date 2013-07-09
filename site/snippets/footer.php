@@ -9,9 +9,9 @@
               <li><p>+39 349-2514866</p></li>
               <ul class="footer-social cf">
                   <li><a href="http://twitter.com/zetareticoli/" title="Twitter" target="_blank"><i class="ss-icon">twitter</i></a></li>
-                  <li><a href="http://insta.zetareticoli.com/" title="Instagram" target="_blank"><i class="ss-icon">dribbble</i></a></li>
-                  <li><a href="http://insta.zetareticoli.com/" title="Instagram" target="_blank"><i class="ss-icon">behance</i></a></li>
-                  <li><a href="http://insta.zetareticoli.com/" title="Instagram" target="_blank"><i class="ss-icon">linkedin</i></a></li>
+                  <li><a href="http://dribbble.com/zetareticoli" title="Dribbble" target="_blank"><i class="ss-icon">dribbble</i></a></li>
+                  <li><a href="http://www.behance.net/designabile" title="Behance" target="_blank"><i class="ss-icon">behance</i></a></li>
+                  <li><a href="http://www.linkedin.com/in/francescoimprota" title="Linkedin" target="_blank"><i class="ss-icon">linkedin</i></a></li>
               </ul>
           </ul>
           <div class="footer-secondary">

@@ -28,6 +28,6 @@
 
         <h2 class="brand"><a href="<?php echo url() ?>">designabile</a></h2>
         <h1 class="teaser-title">design & craft interfaces. beautifully.</h1>
-        <a href="#" class="btn btn-large btn-primary">View recent projects</a>
+        <a href="/work" class="btn btn-large btn-primary">View recent projects</a>
     </header>
 </div>

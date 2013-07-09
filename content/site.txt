@@ -6,4 +6,4 @@ Description: Kirby is awesome
 ----
 Keywords: portfolio, design, studio, web design, webdesign, user interface design, francesco improta
 ----
-Copyright: © (date: Year) &mdash; Handmade in Rome with love. Made with <a href="getkirby.com" title="Kirby CMS">Kirby</a>. Hosted on Dreamhost.
+Copyright: © (date: Year) &mdash; Handmade in Rome with love. Hosted on Dreamhost.

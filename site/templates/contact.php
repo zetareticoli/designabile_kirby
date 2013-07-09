@@ -19,10 +19,10 @@
                 <h2>elsewhere on web</h2>
                 <ul class="l-inline">
                     <li><a href="http://twitter.com/zetareticoli/" title="Twitter" target="_blank"><i class="ss-icon icon-big twitter">twitter</i></a></li>
-                    <li><a href="http://twitter.com/zetareticoli/" title="Twitter" target="_blank"><i class="ss-icon icon-big dribbble">dribbble</i></a></li>
-                    <li><a href="http://twitter.com/zetareticoli/" title="Twitter" target="_blank"><i class="ss-icon icon-big linkedin">linkedin</i></a></li>
-                    <li><a href="http://twitter.com/zetareticoli/" title="Twitter" target="_blank"><i class="ss-icon icon-big">behance</i></a></li>
-                    <li><a href="http://twitter.com/zetareticoli/" title="Twitter" target="_blank"><i class="ss-icon icon-big instagram">instagram</i></a></li>
+                    <li><a href="http://dribbble.com/zetareticoli" title="Dribbble" target="_blank"><i class="ss-icon icon-big dribbble">dribbble</i></a></li>
+                    <li><a href="http://www.behance.net/designabile" title="Behance" target="_blank"><i class="ss-icon icon-big behance">behance</i></a></li>
+                    <li><a href="http://www.linkedin.com/in/francescoimprota" title="Linkedin" target="_blank"><i class="ss-icon icon-big linkedin">linkedin</i></a></li>
+                    <li><a href="http://instagram.com/zetareticoli" title="Instagram" target="_blank"><i class="ss-icon icon-big instagram">instagram</i></a></li>
                 </ul>
             </div>
         </section>

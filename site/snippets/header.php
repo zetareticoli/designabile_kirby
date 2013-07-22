@@ -22,6 +22,9 @@
 
 <body class="p-<?php echo $page->template() ?>">
 
+<!-- CSSAward badge -->
+<div id="cssawards"><a href="http://cssawards.net/designabile" target="_blank">designabile</a></div>
+
 <div class="header-container">
     <header class="wrapper cf">
         <?php snippet('menu') ?>

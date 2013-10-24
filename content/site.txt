@@ -2,7 +2,7 @@ Title: Designabile, creative design studio of Francesco Improta
 ----
 Author: Francesco Improta
 ----
-Description: Kirby is awesome
+Description: Designabile is the tiny design studio of Francesco Improta. We design and craft beautiful interfaces for the web.
 ----
 Keywords: portfolio, design, studio, web design, webdesign, user interface design, francesco improta
 ----
